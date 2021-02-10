@@ -1,0 +1,42 @@
+:host {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+
+  @mixin center {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    @include center;
+  }
+
+  .signup {
+    @include center;
+  }
+
+  .form-group {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  input {
+    min-width: 200px;
+  }
+
+  label {
+    display: inline-block;
+    min-width: 100px;
+    font-weight: bold;
+  }
+
+  p {
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+<h1>Sign-up code challange</h1>
+<div class="signup">
+  <form [formGroup]="form" class="form-group">
+    <p><label for="firstname">Firstname</label><input type="text" id="firstname" formControlName="firstname" placeholder="firstname"/></p>
+    <p><label for="lastname">Lastname</label><input type="text" id="lastname" formControlName="lastname" placeholder="lastname"/></p>
+    <p><label for="email">Email</label><input type="email" id="email" formControlName="email" placeholder="email"/></p>
+    <p><label for="password">Password</label><input type="password" id="password" formControlName="password" placeholder="password"/></p>
+    <button [disabled]="form.invalid" (click)="submitForm()">Submit</button>
+  </form>
+
+
+</div>
+
+
+<hr>
+<pre>
+  {{form.value | json}}
+</pre>
+password VALID : {{form.get('password').valid}}
