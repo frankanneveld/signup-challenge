@@ -61,6 +61,7 @@ export class SignupComponent {
   public submitForm() {
     const {firstname, lastname, email}: SignUp = this.form.value;
     this.apiService.post({firstname, lastname, email}).subscribe( () => this.form.reset());
+    // .subscribe( () => this.form.reset());
   }
 
 }
