@@ -19,7 +19,7 @@
     display: flex;
     flex-flow: column wrap;
     background: #4d148c;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
   }
 
@@ -40,10 +40,14 @@
   }
 
   button {
-    // transform: translateY(20px);
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-self: flex-end;
+  }
+
+  .text-danger {
+    transform: translateX(100px);
+    color: red;
   }
 }
