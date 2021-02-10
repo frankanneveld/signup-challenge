@@ -8,6 +8,22 @@ The Signup form is part of an application which normally navigate to the signin 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
+## Browser support
+
+* chrome 88
+* edge 88
+* edge 87
+* firefox 85
+* firefox 78
+* ios_saf 14.0-14.4
+* ios_saf 13.4-13.7
+* ios_saf 13.3
+* ios_saf 13.2
+* ios_saf 13.0-13.1
+* safari 14
+* safari 13.1
+* safari 13
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
