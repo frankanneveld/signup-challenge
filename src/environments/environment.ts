@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api_endpoint: 'https://demo-api.now.sh/user'
+  api_endpoint: 'https://demo-api.now.sh/users'
 };
 
 /*
