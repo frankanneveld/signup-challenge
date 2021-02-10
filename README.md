@@ -1,10 +1,20 @@
 # CodingChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+The Signup form is part of an application which normally navigate to the signin url when the user signs up. For demo purposes the application navigate automatically to the /signup url.
+
+---
+
+## Angular version
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Endpoint configuration
+
+The configuration for the api endpoint can be found in the environment file.
 
 ## Code scaffolding
 
