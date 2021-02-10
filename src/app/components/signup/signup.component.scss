@@ -8,6 +8,7 @@
 
   h1 {
     @include center;
+    color: #ff6200;
   }
 
   .signup {
@@ -17,6 +18,9 @@
   .form-group {
     display: flex;
     flex-flow: column wrap;
+    background: #4d148c;
+    padding: 10px;
+    border-radius: 5px;
   }
 
   input {
@@ -27,6 +31,7 @@
     display: inline-block;
     min-width: 100px;
     font-weight: bold;
+    color: white;
   }
 
   p {
@@ -35,6 +40,8 @@
   }
 
   button {
+    // transform: translateY(20px);
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-self: flex-end;

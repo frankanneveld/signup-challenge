@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: lighten(black, 50);
+  ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('https://www.fedex.com/content/dam/fedex/international/international/images/2020/Q3/2019_Cologne_22678.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .02;
+  }
 }
