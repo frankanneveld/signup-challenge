@@ -9,6 +9,7 @@
   h1 {
     @include center;
     color: #ff6200;
+    text-shadow: black 1px 1px;
   }
 
   .signup {
