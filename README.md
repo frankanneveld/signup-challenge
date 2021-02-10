@@ -1,6 +1,6 @@
 # CodingChallenge
 
-The Signup form is part of an application which normally navigate to the signin url when the user signs up. For demo purposes the application navigate automatically to the /signup url.
+The Signup form is part of an application which normally navigates to the signin url when the user signs up. For demo purposes the application navigates automatically to the /signup url.
 
 ---
 
