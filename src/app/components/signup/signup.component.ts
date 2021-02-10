@@ -50,7 +50,7 @@ export class SignupComponent {
       || control.value === control.parent?.get('lastname').value
       || !/[a-z]/.test(control.value)
       || !/[A-Z]/.test(control.value)) {
-      return { valid: false };
+      return { isValid: false };
     }
     return null;
   }
