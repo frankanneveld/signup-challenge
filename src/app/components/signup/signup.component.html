@@ -9,7 +9,7 @@
     </ng-container>
     <p><label for="password">Password <sup>*</sup></label><input type="password" id="password" formControlName="password" placeholder="password"/></p>
     <ng-container *ngIf="password.invalid || password.touched">
-      <small class="text-danger" *ngIf="!password.errors.isValid">Password is invalid</small>
+      <small class="text-danger" *ngIf="!password.errors?.isValid">Password is invalid</small>
     </ng-container>
     <button [disabled]="form.invalid" (click)="submitForm()">Submit</button>
     <small style="color: white">* all fields are required</small>
