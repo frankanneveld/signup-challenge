@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  ::before {
+  &:before {
     content: "";
     position: absolute;
     top: 0;
@@ -11,6 +11,6 @@ body {
     background-image: url('https://www.fedex.com/content/dam/fedex/international/international/images/2020/Q3/2019_Cologne_22678.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .02;
+    opacity: .5;
   }
 }
